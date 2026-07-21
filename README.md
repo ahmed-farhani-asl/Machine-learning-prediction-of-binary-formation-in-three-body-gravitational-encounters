@@ -5,7 +5,8 @@ This repository contains the code used for the machine learning analysis present
 > **Machine-learning-prediction-of-binary-formation-in-three-body-gravitational-encounters**  
 > Ahmad Farhani Asl
 
-The code is released under the **Apache License 2.0**. The simulation data used in this work will be deposited at the CDS (Centre de Données astronomiques de Strasbourg) upon acceptance of the paper. 
+The code is released under the **Apache License 2.0**. 
+Please find the simulation data used in this work at: https://zenodo.org/records/21458387  and the trained model at: https://zenodo.org/records/21462557
 
 ---
 
@@ -132,13 +133,13 @@ All features are log-transformed where appropriate to improve model performance.
 
 ## 📦 Model Availability
 
-The trained model will be made available separately as soon as possible.
+https://zenodo.org/records/21462557
 
 ---
 
 ## 📝 Documentation
 
-Full documentation, including feature descriptions, hyperparameter tuning, and performance analysis, is provided in the accompanying paper.
+Full documentation, including feature descriptions, hyperparameter tuning, and performance analysis, is provided in the accompanying paper; see https://arxiv.org/abs/2607.16776
 
 ---
 
@@ -164,16 +165,15 @@ For questions or collaboration, please contact: a.farhaniasl@gmail.com
 
 If you use this code in your research, please cite the associated paper:
 
-to be completed once the paper becomes available...
 ```bibtex
-@article{FarhaniAsl2026,
-  author = {{Farhani Asl}, Ahmad},
-  title = {Machine-learning-prediction-of-binary-formation-in-three-body-gravitational-encounters},
-  journal = {[Journal]},
-  year = {[Year]},
-  volume = {[Volume]},
-  pages = {[Pages]},
-  doi = {[DOI]}
+@misc{asl2026machinelearningpredictionbinary,
+      title={Machine learning prediction of binary formation in three-body gravitational encounters}, 
+      author={Ahmad Farhani Asl},
+      year={2026},
+      eprint={2607.16776},
+      archivePrefix={arXiv},
+      primaryClass={astro-ph.GA},
+      url={https://arxiv.org/abs/2607.16776}, 
 }
 ```
 
@@ -206,9 +206,3 @@ Also, please acknowledge the use of this code and the following software librari
   year={2012}
 }
 ```
-
----
-
-## ⚠️ Disclaimer
-
-This code is provided "as is" without warranty of any kind. Use at your own risk.
